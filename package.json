@@ -1,0 +1,19 @@
+{
+  "name": "kebab-voice-agent",
+  "version": "1.0.0",
+  "description": "AI phone agent for kebab shops using Twilio + OpenAI Realtime",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@fastify/formbody": "^7.0.0",
+    "@fastify/websocket": "^8.0.0",
+    "dotenv": "^16.4.0",
+    "fastify": "^4.25.2",
+    "@openai/agents": "^1.0.0",
+    "@openai/agents-realtime": "^1.0.0",
+    "@openai/agents-extensions": "^1.0.0",
+    "zod": "^3.22.4"
+  }
+}
