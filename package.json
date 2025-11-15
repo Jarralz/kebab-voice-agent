@@ -6,15 +6,12 @@
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {
+	"dependencies": {
 		"fastify": "^4.25.2",
 		"@fastify/formbody": "^7.0.0",
 		"@fastify/websocket": "^8.0.0",
 		"dotenv": "^16.4.0",
 		"zod": "^3.22.4",
-
-		"@openai/agents": "0.0.5",
-		"@openai/agents-realtime": "0.0.5",
-		"@openai/agents-extensions": "0.0.5"
+		"openai": "^4.55.0"
 	}
 }
