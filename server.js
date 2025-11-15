@@ -8,9 +8,9 @@ import {
   RealtimeSession,
   backgroundResult,
   tool,
-} from "@openai/agent-realtime";
+} from "@openai/agents-realtime";
 
-import { TwilioRealtimeTransportLayer } from "@openai/agent-node";
+import { TwilioRealtimeTransportLayer } from "@openai/agents-extensions";
 
 import { z } from "zod";
 

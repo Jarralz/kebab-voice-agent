@@ -7,15 +7,14 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@fastify/formbody": "^7.0.0",
-    "@fastify/websocket": "^8.0.0",
-    "dotenv": "^16.4.0",
-    "fastify": "^4.25.2",
-    "zod": "^3.22.4",
+		"fastify": "^4.25.2",
+		"@fastify/formbody": "^7.0.0",
+		"@fastify/websocket": "^8.0.0",
+		"dotenv": "^16.4.0",
+		"zod": "^3.22.4",
 
-    "@openai/agent": "0.3.0",
-    "@openai/agent-realtime": "0.2.0",
-    "@openai/agent-node": "0.1.3",
-    "@openai/realtime-api-beta": "0.4.4"
-    }
+		"@openai/agents": "0.0.5",
+		"@openai/agents-realtime": "0.0.5",
+		"@openai/agents-extensions": "0.0.5"
+	}
 }
