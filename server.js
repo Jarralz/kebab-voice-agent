@@ -8,9 +8,10 @@ import {
   RealtimeSession,
   backgroundResult,
   tool,
-} from "@openai/agents-realtime";
+} from "@openai/agent-realtime";
 
-import { TwilioRealtimeTransportLayer } from "@openai/agents-extensions";
+import { TwilioRealtimeTransportLayer } from "@openai/agent-node";
+
 import { z } from "zod";
 
 dotenv.config();
